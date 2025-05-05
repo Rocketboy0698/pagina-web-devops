@@ -286,3 +286,43 @@ sudo dnf install jenkins -y
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo systemctl status jenkins
+lsblk
+sudo growpart /dev/xvda 1
+sudo xfs_growfs -d /
+df -h
+git init
+git add . 
+ls
+git commit -m "Primer commit - Página web DevOps"
+git branch -M main
+git remote add origin https://github.com/Rocketboy0698/pagina-web-devops.git
+git push -u origin main
+git add .
+ls
+cd pagina-web-devops
+ls
+cd
+git commit -m "Primer commit - Página web DevOps"
+git push -u origin main
+sudo systemctl status jenkins
+git commit -m "Primer commit - Página web DevOps"
+git push -u origin main
+git config --global pack.windowMemory "10m"
+git config --global pack.packSizeLimit "10m"
+git config --global pack.threads "1"
+git push -u origin main
+ls
+mkdir pagina-web-devops
+cd pagina-web-devops
+nano index.html
+sudo rm -rf /var/lib/jenkins/workspace/*
+sudo rm -rf /tmp/*
+sudo journalctl --vacuum-time=1d
+sudo rm -rf /var/lib/jenkins/workspace/*
+df -h
+lines 1-20/20 (END)
+git --version~
+git --version
+sudo yum install git -y
+sudo systemctl status jenkins

@@ -1,0 +1,4 @@
+[pack]
+	windowMemory = 10m
+	packSizeLimit = 10m
+	threads = 1
